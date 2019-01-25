@@ -1,0 +1,12 @@
+b=int(input())
+f=b
+a=len(str(b))
+d=0
+while(b>0):
+    c=b%10
+    d=(c*c*c)+d
+    b=b//10
+if(f==d):
+    print("yes")
+else:
+    print("no")
