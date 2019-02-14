@@ -1,0 +1,13 @@
+a=int(input())
+b=int(input())
+c=int(input())
+d=int(input())
+if(a>c):
+    e=a-c
+else:
+    e=c-a
+if(b>d):
+    f=b-d
+else:
+    f=d-b
+print(e,f)
