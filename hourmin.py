@@ -1,4 +1,4 @@
 g=int(input())
-h=a//60
-f=a%60
+h=g//60
+f=g%60
 print(h,f)
