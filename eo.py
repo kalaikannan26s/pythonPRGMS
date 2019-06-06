@@ -1,8 +1,8 @@
 try:
-    a=input()
-    if(int(a)%2==0):
-        print("the number is even")
+    q=input()
+    if(int(q)%2==0):
+        print("even")
     else:
-        print("the number is odd")
+        print("odd")
 except ValueError:
     print("invalid")
