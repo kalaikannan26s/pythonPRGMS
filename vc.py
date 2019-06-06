@@ -1,7 +1,7 @@
-h=input()
-if((h=='e')or(h=='a')or(h=='i')or(h=='o')or(h=='u')):
-    print("the char is vowel")
-elif((h=='b')or(h=='c')or(h=='d')or(h=='f')or(h=='g')or(h=='h')or(h=='j')or(h=='k')or(h=='l')or(h=='m')or(h=='n')or(h=='p')or(h=='q')or(h=='r')or(h=='s')or(h=='t')or(h=='v')or(h=='w')or(h=='x')or(h=='y')or(h=='z')):
-    print("the char is consonant")
+q=input()
+if((q=='e')or(q=='a')or(q=='i')or(q=='o')or(q=='u')):
+    print("Vowel")
+elif((q=='b')or(q=='c')or(q=='d')or(q=='f')or(q=='g')or(q=='h')or(q=='j')or(q=='k')or(q=='l')or(q=='m')or(q=='n')or(q=='p')or(q=='q')or(q=='r')or(q=='s')or(q=='t')or(q=='v')or(q=='w')or(q=='x')or(q=='y')or(q=='z')):
+    print("Consonant")
 else:
     print("invalid")
